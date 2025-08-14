@@ -6,7 +6,6 @@ function forms_pessoa() {
     const peso = document.getElementById("input_Peso").value;
     const altura = document.getElementById("input_Altura").value;
 
-    
     return {
         nome: nome,
         sobrenome: sobrenome,

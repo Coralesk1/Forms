@@ -1,0 +1,46 @@
+.forms { 
+    background-color: rgb(191, 211, 235);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 700px;
+    height: auto;
+    margin-top: 20px;
+    border: 2px solid rgb(0, 17, 255);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+   
+}
+body {
+    background-color: rgb(227, 239, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    color:  blue;
+    padding: 20px;
+    font-size: 60px;
+}
+label {
+    font-size: 25px;
+    color: rgb(0, 81, 255);
+    
+}
+input {
+    width: 250px;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 2px solid rgb(127, 127, 255); /* azul claro */
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+    transition: border 0.3s;
+}
+input:focus {
+    border: 2px solid blue;
+}
+button {
+    
+}
